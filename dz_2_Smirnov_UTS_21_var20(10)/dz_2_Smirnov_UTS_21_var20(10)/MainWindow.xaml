@@ -1,0 +1,37 @@
+﻿<Window x:Class="dz_2_Smirnov_UTS_21_var20_10_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dz_2_Smirnov_UTS_21_var20_10_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Content="Введите текст:" FontSize="32" HorizontalAlignment="Center" />
+        <TextBox x:Name="tb_input" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" Grid.RowSpan="3" />
+        <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="6" Content="Преобразованный текст:" FontSize="32" HorizontalAlignment="Center" />
+        <TextBox x:Name="tb_output" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="6" Grid.RowSpan="3" />
+        <Button Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="1" Click="Button_Click" Content="Преобразовать" FontSize="20"/>
+
+    </Grid>
+</Window>
